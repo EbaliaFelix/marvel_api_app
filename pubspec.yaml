@@ -1,5 +1,5 @@
-name: textapp
-description: "A new Flutter project."
+name: marvel_api_app
+description: "A new Flutter project to call Marvel API"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -30,6 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^1.2.2      # Paquete para realizar peticiones HTTP
+  crypto: ^3.0.1     # Paquete para generar el hash MD5
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -38,7 +40,8 @@ dependencies:
 
 dev_dependencies:
   flutter_test:
-    sdk: flutter
+    sdk: flutter 
+    
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -90,3 +93,5 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+ 
+  
